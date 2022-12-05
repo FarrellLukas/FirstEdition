@@ -1,9 +1,3 @@
-# FirstEdition
-https://farrelllukas.github.io/FirstEdition/
-https://raw.githubusercontent.com/FarrellLukas/FirstEdition/main/README.md
- 
-
-
 <head>
 <meta property="og:site_name" content="https://baloo.one">
 <meta property="og:url" content="https://baloo.one">
