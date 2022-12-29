@@ -12111,6 +12111,7 @@
         <script>
                 window.addEventListener("keydown", function (event) {
                         if (event.keyCode == 8) {
+                                // alert(jumpReturn);
                                 if (jumpReturn == 0) {
                                         readyall()
                                 }
@@ -12126,7 +12127,9 @@
                                 else if (jumpReturn == 4) {
                                         navbarclick(jumpReturn);
                                 }
-                                alert(jumpReturn);
+                                if(jumpReturn != 0){
+                                        jumpReturn--
+                                }
                                 // handled = true;      // 백스페이스 비활성화
                         }
                 }, true);
