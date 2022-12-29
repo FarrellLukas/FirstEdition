@@ -12111,6 +12111,8 @@
         <script>
                 window.addEventListener("keydown", function (event) {
                         if (event.keyCode == 8) {
+                                handled = true;      // 백스페이스 비활성화
+                                event.preventDefault();
                                 // alert(jumpReturn);
                                 if (jumpReturn == 0) {
                                         readyall()
