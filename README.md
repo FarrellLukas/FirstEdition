@@ -5,4 +5,4 @@
 
 ![StandMenu](https://user-images.githubusercontent.com/17058307/208624479-3c9739c3-c21f-44f7-9ba2-412e3b5a2211.png)
 
-[이곳을 '클릭'하여 접속하세요.](https://farrelllukas.github.io/FirstEdition/)
+[이곳을 '클릭' 하여 접속하세요.](https://farrelllukas.github.io/FirstEdition/)
