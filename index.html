@@ -1,7 +1,7 @@
 <html lang="ko">
         <head>
                 <title>StandModMenu-Commands byHADES</title>
-                <meta content="#494949" data-react-helmet="true" name="theme-color">
+                <meta content="#494949" charset="utf-8" data-react-helmet="true" name="theme-color">
         </head>
         <body style="background-color:#26282C;">
         <button type="button" class="nav_bar" onclick="readyall()">StandModMenuCommands byHADES</button><button 
@@ -5463,6 +5463,12 @@
                         onclick="T0Clicked('P3281', '2', 'Open Profile By Name — Command: nameprofile [name]', 'no description', 'Open Profile By Name ')"
                         onmouseover="tooltips('Open Profile By Name — Command: nameprofile [name]')" class="T2" id="T2"> Open Profile By Name </button><br></div>
                 <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
+                        onclick="T0Clicked('P3293', '2', 'Kick By Name — Command: namekick [name] — Exclusive to the Ultimate Edition', ' Command: namekick [name] ', 'Kick By Name ')"
+                        onmouseover="tooltips('Kick By Name — Command: namekick [name] — Exclusive to the Ultimate Edition')" class="T2" id="T2"> Kick By Name </button><br></div>
+                <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
+                        onclick="T0Clicked('P3294', '2', 'Send Pipebomb By Name — This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. — Command: namecrash [name] — Exclusive to the Ultimate Edition', ' This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. ', 'Send Pipebomb By Name ')"
+                        onmouseover="tooltips('Send Pipebomb By Name — This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. — Command: namecrash [name] — Exclusive to the Ultimate Edition')" class="T2" id="T2"> Send Pipebomb By Name </button><br></div>
+                <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
                         onclick="T0Clicked('P3282', '2', 'Join Session By RID — Command: ridjoin [rid]', 'no description', 'Join Session By RID ')"
                         onmouseover="tooltips('Join Session By RID — Command: ridjoin [rid]')" class="T2" id="T2"> Join Session By RID </button><br></div>
                 <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
@@ -5474,6 +5480,12 @@
                 <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
                         onclick="T0Clicked('P3285', '2', 'Open Profile By RID — Command: ridprofile [rid]', 'no description', 'Open Profile By RID ')"
                         onmouseover="tooltips('Open Profile By RID — Command: ridprofile [rid]')" class="T2" id="T2"> Open Profile By RID </button><br></div>
+                <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
+                        onclick="T0Clicked('P3299', '2', 'Kick By RID — Command: ridkick [rid] — Exclusive to the Ultimate Edition', ' Command: ridkick [rid] ', 'Kick By RID ')"
+                        onmouseover="tooltips('Kick By RID — Command: ridkick [rid] — Exclusive to the Ultimate Edition')" class="T2" id="T2"> Kick By RID </button><br></div>
+                <div class="D2 P257 TD" id="D2" style="display: none;"><button type="button"
+                        onclick="T0Clicked('P3300', '2', 'Send Pipebomb By RID — This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. — Command: ridcrash [rid] — Exclusive to the Ultimate Edition', ' This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. ', 'Send Pipebomb By RID ')"
+                        onmouseover="tooltips('Send Pipebomb By RID — This will crash their game, even if theyre in Story Mode, unless they have a menu that blocks it. — Command: ridcrash [rid] — Exclusive to the Ultimate Edition')" class="T2" id="T2"> Send Pipebomb By RID </button><br></div>
                 <div class="D1 P13 TD" id="D1" style="display: none;"><button type="button"
                         onclick="T0Clicked('P258', '1', 'CEO/MC', 'no description', 'CEO/MC')"
                         onmouseover="tooltips('CEO/MC')" class="T1" id="T1"><strong><strong>CEO/MC</strong></strong></button><br></div>
@@ -9301,8 +9313,8 @@
                         onclick="T0Clicked('P5930', '4', 'Use Preset Font — Command: presetfont', 'no description', 'Use Preset Font ')"
                         onmouseover="tooltips('Use Preset Font — Command: presetfont')" class="T4" id="T4"><strong>Use Preset Font</strong></button><br></div>
                 <div class="D5 P5930 TD" id="D5" style="display: none;"><button type="button"
-                        onclick="T0Clicked('P6349', '5', 'Microsoft YaHei — Stands default font. — Command: presetfont yahei', ' Stands default font. ', 'Microsoft YaHei ')"
-                        onmouseover="tooltips('Microsoft YaHei — Stands default font. — Command: presetfont yahei')" class="T5" id="T5"> Microsoft YaHei </button><br></div>
+                        onclick="T0Clicked('P6349', '5', 'Jua — Stands default font. — Command: presetfont yahei', ' Stands default font. ', 'Jua ')"
+                        onmouseover="tooltips('Jua — Stands default font. — Command: presetfont yahei')" class="T5" id="T5"> Jua </button><br></div>
                 <div class="D5 P5930 TD" id="D5" style="display: none;"><button type="button"
                         onclick="T0Clicked('P6350', '5', 'Nanum Gothic — Stands auxiliary font for Korean. — Command: presetfont nanumgothic', ' Stands auxiliary font for Korean. ', 'Nanum Gothic ')"
                         onmouseover="tooltips('Nanum Gothic — Stands auxiliary font for Korean. — Command: presetfont nanumgothic')" class="T5" id="T5"> Nanum Gothic </button><br></div>
@@ -10108,7 +10120,7 @@
         <style>
                 #main_menu {
                 display:            inline-block;
-                margin-right:       3px;
+                margin-right:       30px;
                 }
                 #sub_menu {
                 display:            inline-block;
@@ -10120,11 +10132,11 @@
                 border:             none;
                 color:              white;
                 margin-top:         10px;
-                margin-left:        163px;
+                margin-left:        165px;
                 margin-right:       2450px;
                 width:              530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 }
                 .nav_bar {
                 margin-right:       0px;
@@ -10136,7 +10148,7 @@
                 color:              white;
                 height:             25px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 .nav_bar:hover {
@@ -10149,7 +10161,7 @@
                 color:              white;
                 height:             30px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 .nav_bar_space {
@@ -10162,7 +10174,7 @@
                 color:              white;
                 height:             25px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 .nav_bar_space:hover {
@@ -10175,7 +10187,7 @@
                 color:              white;
                 height:             30px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 #T0,#T1,#T2,#T3,#T4,#T5,#T6{
@@ -10186,9 +10198,9 @@
                 border:             none;
                 color:              white;
                 height:             25px;
-                min-width:          155px;
+                min-width:          165px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 #T0:hover {
@@ -10196,9 +10208,9 @@
                 border:             none;
                 color:              white;
                 height:             25px;
-                min-width:          155px;
+                min-width:          165px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               10px;
                 }
                 #T1 {
@@ -10208,7 +10220,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T1:hover {
@@ -10218,7 +10230,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T2 {
@@ -10228,7 +10240,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T2:hover {
@@ -10238,7 +10250,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T3 {
@@ -10248,7 +10260,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T3:hover {
@@ -10258,7 +10270,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T4 {
@@ -10268,7 +10280,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T4:hover {
@@ -10278,7 +10290,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T5 {
@@ -10288,7 +10300,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T5:hover {
@@ -10298,7 +10310,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T6 {
@@ -10308,7 +10320,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 #T6:hover {
@@ -10318,7 +10330,7 @@
                 height:             25px;
                 min-width:          530px;
                 text-align:         left;
-                font-family:        Microsoft YaHei;
+                font-family:        Jua;
                 left:               20px;
                 }
                 strong{
