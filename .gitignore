@@ -1,2 +1,8 @@
+# Limiting files that are automatically created on a Mac
 .DS_Store
+
+# vscode Preferences
+.vscode
+
+# Other Cleanup Files
 Command/
